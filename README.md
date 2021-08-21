@@ -1,1 +1,5 @@
-# segmentation-of-remote-sensing-image-
+# segmentation-of-remote-sensing-image
+
+高分辨率遥感影像精细化语义分割
+
+constants中是一些常量，evaluate中是包括计算混淆矩阵在内的一些评价指标，generator是生成训练模型所需的图像，loss是损失函数，主要使用交叉熵损失函数，model是建立模型，resnet_def是resnet网络结构，resnet_def_copy是加入通道注意力机制后的结构，split_img是对影像切片扩充数据，test是预测并进行评价，train是训练网络，unet_def是unet decoder部分结构，unet-encoder即encoder部分结构，weights是加载resnet预训练权重（可不用）
